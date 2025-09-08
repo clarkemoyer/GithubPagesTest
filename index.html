@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VolunteerMatch Code Test</title>
+    <title>Final Idealist Button Test</title>
 </head>
 <body>
 
-    <h1>Testing the Modern VolunteerMatch Widget</h1>
-    <p>The iframe widget below should display the listings correctly.</p>
+    <h1>Testing the Final Idealist Link Button</h1>
+    <p>This button should link to the correct Free For Charity page on Idealist.org.</p>
     <hr>
 
-    <iframe src="https://www.idealist.org/search/org_search_results.jsp?orgid=771191&size=5" 
-            width="100%" 
-            height="500" 
-            frameborder="0" 
-            scrolling="auto" 
-            longdesc="VolunteerMatch Listings">
-    </iframe>
+    <style>
+      .idealist-button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff !important;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      .idealist-button:hover {
+        background-color: #0056b3;
+        color: #fff !important;
+      }
+    </style>
+
+    <a href="https://www.idealist.org/en/nonprofit/a335555e555d4bb1b1c71329a3a1656f" class="idealist-button" target="_blank" rel="noopener noreferrer">
+      View Our Volunteer Opportunities on Idealist
+    </a>
 
 </body>
 </html>
