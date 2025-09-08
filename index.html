@@ -7,19 +7,17 @@
 </head>
 <body>
 
-    <h1>Testing the VolunteerMatch Widget</h1>
-    <p>If the script works, listings should appear below this line.</p>
+    <h1>Testing the Modern VolunteerMatch Widget</h1>
+    <p>The iframe widget below should display the listings correctly.</p>
     <hr>
 
-    <script>
-      var vmls = {
-        sectionStyle: "padding: 5px;",
-        listingStyle: "margin-top: 1em; margin-bottom: 1em;",
-        // CORRECTED: The message is now a clean JavaScript string.
-        msg: "At this time, we have no active volunteer opportunities. If you still want to get involved please text Clarke Moyer directly at 520-222-8104 with your volunteer idea."
-      };
-    </script>
-    <script src="https://www.volunteermatch.org/api/listings?v=2&g=c138e497c86a6cd86f0b6b8bb9b390f7&i=15&o=all&d=30"></script>
+    <iframe src="https://www.volunteermatch.org/search/org_search_results.jsp?orgid=771191&size=5" 
+            width="100%" 
+            height="500" 
+            frameborder="0" 
+            scrolling="auto" 
+            longdesc="VolunteerMatch Listings">
+    </iframe>
 
 </body>
 </html>
